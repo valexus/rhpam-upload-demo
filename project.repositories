@@ -1,0 +1,28 @@
+<project-repositories>
+  <repositories>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>repo-arVbyrcbrorBwXvA</id>
+        <url>http://nexus-nexus.apps.sample-cluster.sandbox1254.opentlc.com/repository/pam-group/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>https://repo1.maven.org/maven2</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+  </repositories>
+</project-repositories>
